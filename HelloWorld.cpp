@@ -17,10 +17,19 @@ int main()
     cout << fruits[i] << endl;
   }
 
-  float annualSalary = 50000.99;
+  // float annualSalary = 50000.99;
+  // or we can ask for user intput
+  float annualSalary;
+  // write a message in the terminal
+  cout << "Please enter your annual salary: ";
+  cin >> annualSalary;
+
   float monthlySalary = annualSalary / 12;
   // output the result into a variable
-  cout << "Your monthly salary is " << monthlySalary;
+  // cout << "Your monthly salary is " << monthlySalary;
+  // add a linebreak
+  cout << "Your monthly salary is " << monthlySalary << endl;
+  cout << "In 10 years you will earn " << annualSalary * 10;
 
   return 0;
 }
