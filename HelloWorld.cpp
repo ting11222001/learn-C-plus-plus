@@ -9,12 +9,18 @@ int main()
   // cout << "Hello world!" << endl;
   std::cout << "Hello world!\n";
 
+  // variable assignment
   string fruit = "apple";
   string fruits[5] = {"apple", "organge", "pear", "strawberry", "banana"};
   for (int i = 0; i < 5; i++)
   {
     cout << fruits[i] << endl;
   }
+
+  float annualSalary = 50000.99;
+  float monthlySalary = annualSalary / 12;
+  // output the result into a variable
+  cout << "Your monthly salary is " << monthlySalary;
 
   return 0;
 }
