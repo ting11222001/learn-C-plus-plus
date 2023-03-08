@@ -28,5 +28,10 @@ int main()
   cout << "Size of float is " << sizeof(float) << " bytes\n";   // Size of float is 4 bytes
   cout << "Size of double is " << sizeof(double) << " bytes\n"; // Size of double is 8 bytes
 
+  // int data overflow
+  int intMax = INT_MAX;
+  cout << intMax << endl; // 2147483647
+  cout << intMax + 1;     // -2147483648, the smallest value is printed, similar to a clock
+
   return 0;
 }
