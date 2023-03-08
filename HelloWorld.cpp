@@ -10,6 +10,7 @@ int main()
   std::cout << "Hello world!\n";
 
   // variable assignment
+  // always give meaningful variable names!
   string fruit = "apple";
   string fruits[5] = {"apple", "organge", "pear", "strawberry", "banana"};
   for (int i = 0; i < 5; i++)
