@@ -14,8 +14,33 @@ int main()
     cout << "Symbol: ";
     cin >> symbol;
 
-    // outer: rows
-    for (int i = 1; i <= length; i++)
+    // // original:
+    // // *
+    // // **
+    // // ***
+    // // ****
+    // // *****
+    // // outer: rows
+    // for (int i = 1; i <= length; i++)
+    // {
+    //     // inner: columns
+    //     for (int j = 1; j <= i; j++)
+    //     {
+    //         cout << symbol;
+    //     }
+
+    //     // after each row, linebreak
+    //     cout << endl;
+    // }
+
+    // reversed:
+    // *****
+    // ****
+    // ***
+    // **
+    // *
+
+    for (int i = length; i >= 1; i--)
     {
         // inner: columns
         for (int j = 1; j <= i; j++)
