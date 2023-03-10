@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// they're doing the same thing. We can use the same function name, just different data type.
 int sum(int a, int b);
 double sum(double a, double b);
 float sum(float a, float b, float c);
