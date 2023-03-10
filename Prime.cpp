@@ -3,17 +3,15 @@ using namespace std;
 
 bool isPrimeNumber(int number)
 {
-  bool isPrimeFlag = true;
   for (int i = 2; i < number; i++)
   {
     if (number % i == 0)
     {
-      isPrimeFlag = false;
-      break;
+      return false; // as long as we enter here, return false
     }
   }
 
-  return isPrimeFlag;
+  return true; // default true
 }
 
 int main()
