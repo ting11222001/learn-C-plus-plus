@@ -1,10 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void introduceMe()
-{
-}
-
 int main()
 {
   // check if a number is a prime number
