@@ -11,6 +11,7 @@ int main()
 {
   cout << "Hello from main()\n"; // always print: Hello from main()
   function();                    // print when called: Hello from function()
+  function();                    // functions help with reusability of the code
 
   return 0;
 }
