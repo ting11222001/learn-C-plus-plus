@@ -49,6 +49,9 @@ int main()
         cout << "Not enough money" << endl;
       }
       break;
+    default:
+      cout << "Not valid option!" << endl;
+      break;
     }
   } while (option != 4);
 
