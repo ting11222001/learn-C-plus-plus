@@ -1,19 +1,20 @@
 #include <iostream>
+#include <climits>
 using namespace std;
 
 int main()
 {
     // Program for counting digits of a number
-    int number;
+    long long number;
     cout << "Enter a number: ";
     cin >> number;
 
-    // // edge case: when the number is very big
-    // if (number > INT_MAX)
-    // {
-    //     cout << "You have entered a very large number.\n";
-    //     return 0;
-    // }
+    // edge case: when the number is very big
+    if (number > INT_MAX)
+    {
+        cout << "You have entered a very large number.\n";
+        return 0;
+    }
 
     // edge case: when user enters 0
     if (number == 0)
